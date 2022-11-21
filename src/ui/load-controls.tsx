@@ -56,19 +56,19 @@ const LoadControls = (props: { setProperty: SetProperty }) => {
         <div id='load-controls'>
             <Container class="load-button-panel" enabled flex>
                 <div className='header'>
-                    <img src={getAssetPath('playcanvas-logo.png')}/>
+                    <img src={getAssetPath('arize-logo.png')}/>
                     <div>
-                        <Label text='PLAYCANVAS MODEL VIEWER' />
+                        <Label text='ARize 3D Model Playground' />
                     </div>
-                    <Button onClick={() => {
+                    {/* <Button onClick={() => {
                         window.open('https://github.com/playcanvas/model-viewer', '_blank').focus();
-                    }} icon='E259'/>
+                    }} icon='E259'/> */}
                 </div>
                 <input type='file' id='file' multiple onChange={onFileSelected} ref={inputFile} style={{ display: 'none' }} />
                 <div id="drag-drop" onClick={onLoadButtonClick}>
                     <Button id="drag-drop-search-icon" icon='E129' />
                     <Label class='desktop' text="Drag & drop your files or click to open files" />
-                    <Label class='mobile' text="Click to open files" />
+                    <Label class='mobile' text="Click to open filesss" />
                 </div>
                 <Label id='or-text' text="OR" class="centered-label" />
                 <TextInput class='secondary' id='glb-url-input' placeholder='enter url' keyChange onValidate={(value: string) => {

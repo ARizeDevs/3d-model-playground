@@ -1,12 +1,8 @@
-# PlayCanvas glTF Viewer
+# ARize 3D Playground (forked from Play Canvas)
 
-The PlayCanvas glTF scene viewer is blazingly fast and 100% compliant with the glTF 2.0 spec.
-
-![PlayCanvas Viewer](https://user-images.githubusercontent.com/11276292/188189268-27d397f2-2085-4d8e-a6b2-4205fd13f0fb.png)
+The ARize 3D Playground is blazingly fast and 100% compliant with the glTF 2.0 spec.
 
 You can find a live version at:
-
-https://playcanvas.com/model-viewer
 
 ## Viewing Scenes
 

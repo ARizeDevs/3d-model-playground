@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>PlayCanvas glTF Viewer</title>
-    <meta name="description" content="Fast and lightweight glTF 2.0 scene viewer powered by the PlayCanvas WebGL engine">
-    <meta name="keywords" content="glTF, GLB, WebGL, PlayCanvas, Viewer">
+    <title>ARize 3D Playground</title>
+    <meta name="description" content="Fast and lightweight glTF 2.0 scene viewer">
+    <meta name="keywords" content="glTF, GLB, WebGL, ARize 3D Playground, Viewer">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
     {{#hasPublicPath}}
-    <link rel="icon" type="image/png" href="/model-viewer/static/playcanvas-logo.png" />
-    <link rel="manifest" href="/model-viewer/static/manifest.json">
-    <link rel="stylesheet" href="/model-viewer/style.css" />
+    <link rel="icon" type="image/png" href="/tools/3d-playground/static/arize-logo.png" />
+    <link rel="manifest" href="/tools/3d-playground/static/manifest.json">
+    <link rel="stylesheet" href="/tools/3d-playground/style.css" />
     <script type="text/javascript">
         if (/playcanvas\.com/.test(window.top.location.host)) {
-            document.write('<link rel="stylesheet" href="/model-viewer/fonts.css" />');
+            document.write('<link rel="stylesheet" href="/tools/3d-playground/fonts.css" />');
         }
     </script>
     {{#hasAnalyticsID}}
@@ -53,8 +53,8 @@
     {{/hasAnalyticsID}}
     {{/hasPublicPath}}
     {{^hasPublicPath}}
-    <link rel="icon" type="image/png" href="./static/playcanvas-logo.png" />
-    <link rel="manifest" href="./static/manifest.json">
+    <link rel="icon" type="image/png" href="/tools/3d-playground/static/arize-logo.png" />
+    <link rel="manifest" href="/tools/3d-playground/static/manifest.json">
     <link rel="stylesheet" type="text/css" href="./style.css" />
     {{/hasPublicPath}}
 </head>
@@ -65,7 +65,7 @@
     </a>
     <div id='app'></div>
     {{#hasPublicPath}}
-    <script src="/model-viewer/index.js"></script>
+    <script src="/tools/3d-playground/index.js"></script>
     <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="{{{ oneTrustDomainKey }}}" ></script>
     <script type="text/javascript">
         if (!window._optanonCallbacks) {

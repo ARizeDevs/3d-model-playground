@@ -5,14 +5,14 @@
     "dir": "auto",
     "display": "standalone",
     "icons": [{
-        "src": "playcanvas-logo.png",
+        "src": "arize-logo.png",
         "sizes": "64x64",
         "type": "image/png"
     }],
     "lang": "en-US",
-    "name": "PlayCanvas glTF Viewer",
+    "name": "ARize 3D Playground",
     "orientation": "any",
     "prefer_related_applications": false,
-    "short_name": "glTF Viewer",
+    "short_name": "3D Playground",
     "start_url": "."
 }

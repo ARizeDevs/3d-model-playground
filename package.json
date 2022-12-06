@@ -1,9 +1,9 @@
 {
-  "name": "model-viewer",
+  "name": "ARize 3D Playground",
   "version": "3.0.0",
   "author": "PlayCanvas<support@playcanvas.com>",
   "homepage": "https://playcanvas.com",
-  "description": "PlayCanvas glTF Viewer",
+  "description": "ARize 3D Playground",
   "keywords": [
     "2d",
     "3d",
